@@ -10,3 +10,4 @@ and maybe share some content. <br/>
 
 ![]({{site.baseurl}}/images/000.jpg)
 ![my photo]({{ site.url }}/images/000.jpg)
+![pic](/images/000.jpg){:class="img-responsive"}
