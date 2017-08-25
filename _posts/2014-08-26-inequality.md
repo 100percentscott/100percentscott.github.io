@@ -4,7 +4,7 @@ title:  inequality
 date:   2014-08-26 10:30:00
 ---
 
-Over the last four decades there has been a surge in inequality within many of the world’s most advanced economies. Inequality between individuals, whether wealth or wages, has increased dramatically. Despite having become more productive, many workers have experienced surprisingly poor wage growth. In the United States, for instance, the median worker earned no more in 2009 than they did in 1975, whilst US GDP more than doubled [1]. What drives this clear problem in distribution?
+Over the last four decades there has been a surge in inequality within many of the world’s most advanced economies. Inequality between individuals, whether wealth or wages, has increased dramatically. Despite having become more productive, many workers have experienced surprisingly poor wage growth. In the United States, for instance, the median worker earned no more in 2009 than they did in 1975, whilst US GDP more than doubled [1]. What drives this distribution problem?
 <br/>
 <br/>
 ### **technology**
@@ -35,3 +35,5 @@ Most people, however, do not live alone but with others with whom their social a
 <br/>
 <br/>
 No discussion of family inequality can ignore the rise of women in the labour market. The rise in female labour force participation is one of the most important developments in 20th century labour markets. Women are increasingly playing the role of the breadwinner in the family, married women now bring in slightly over a third of household earnings in the US and UK, up from 20% 30 years ago. Looking forward, women are set to play an increasingly important role particularly as many of the job categories projected to grow in the future, such as teaching and healthcare, are traditionally dominated by women. These changes will likely impact household inequality.
+<br/>
+<br/>
