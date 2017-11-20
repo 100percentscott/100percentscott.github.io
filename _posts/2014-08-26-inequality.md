@@ -4,7 +4,7 @@ title:  inequality
 date:   2014-08-26 10:30:00
 ---
 
-Over the last four decades there has been a surge in inequality within many of the world’s most advanced economies. Inequality between individuals, whether wealth or wages, has increased dramatically. Despite having become more productive, many workers have experienced surprisingly poor wage growth. In the United States, for instance, the median worker earned no more in 2009 than they did in 1975, whilst US GDP more than doubled [1]. What drives this distribution problem?
+Over the last four decades there has been a surge in inequality within many of the world’s most advanced economies. Inequality between individuals, whether wealth or wages, has increased dramatically. Despite having become more productive, many workers have experienced surprisingly poor wage growth. In the United States, for instance, the median worker earned no more in 2009 than they did in 1975, whilst US GDP more than doubled. What drives this distribution problem?
 <br/>
 <br/>
 ### **technology**

@@ -11,4 +11,5 @@ permalink: pretty
 # Third-party services
 # just leave someone empty to disable it
 google_analytics:
-disqus_shortname: 100ps
+disqus_shortname:
+# 100ps
