@@ -8,19 +8,20 @@ date:   2017-09-01 10:30:00
 -----------------------
 ## **Intro**
 ![](https://i.imgur.com/PRa4WK9.png)
-The objective is to understand how FB thinks about and ultimately builds its products. I’ll first cover the company and the nature of their product [Part 1]. I’ll then run through their iOS app [Part 2]
+The objective is to understand how FB thinks about and ultimately builds its products. <br>
+Part 1 covers the company and the nature of their product. <br>
+Part 2 runs through their iOS app. <br>
+This is part 1.
 <br>
 <br>
 
 -----------------------
-## **A. Facebook**
-
-<a name="mission"></a>
 ### **1.  A service for connecting**
 
 FB is a service for connecting. As you read this section it will become increasingly apparent that this is true. Much of the rest of this post then deals with the question of FB connecting ‘who’ with ‘what’ (and ‘what’ with ‘who’).
 
 Let’s begin with the insights we garner from their 10k:
+<br/><a name="usecase"></a>
 >- We help people:
   - stay connected with <span style="background-color: #70f5c7">friends and family</span>
   - <span style="background-color: #70f5c7">discover and learn</span> about what is going on in the world around them
@@ -33,7 +34,7 @@ Let’s begin with the insights we garner from their 10k:
 - We compete with companies that sell advertising, as well as with companies that provide social and communication products and services that are designed to engage users and capture time spent on mobile devices and online
 
 <br>
-That gives a pretty good sense of the frame through which FB views it’s products. A more nuanced view that stands out came from [Mark in 2013]((https://youtu.be/c-E3cfPHjeY)):
+That gives a pretty good sense of the frame through which FB views it’s products. A more nuanced view that stands out came from [Mark in 2013](https://youtu.be/c-E3cfPHjeY):
 
 >“Our mission is to make the world more open and connected. And the way that we do this is by giving people tools so that they can <span style="background-color: #70f5c7">map out the stories of their lives and all of their connections</span>. We believe in this concept that we call the <span style="background-color: #70f5c7">social graph</span> – it’s the sum of all of these different connections in the world. And we believe that if we give people the tools to map out this graph, then that map that people build can be the basis for building all different kinds of <span style="background-color: #70f5c7">services for connecting</span>…
 <br/>
@@ -46,11 +47,10 @@ There are two primary kinds of services for connecting. There are ones that help
 <br/>
 There are a few major use cases, and we call these the pillars of the Facebook product ecosystem. The first query that is really common that a lot of people want to do is they want to know ‘what is going on with the people around them? what is going on with the world?’. That’s NewsFeed. The content on this page is really the answer to the question ‘what is going on with the world around you?’. Another really common query that people want to do is ‘who is this person? tell me their story, tell me something about them’. And that’s timeline.”
 
-
-<br/><a name="social graph"></a>
+<br/>
 ### **2. Social by design**
 
-FB provides tools that let users map out the stories of their lives. The social graph is the digital representation of this map. It is fundamental to how products are thought about at FB. Adam Mosseri talked about it in this [video in 2010](https://www.youtube.com/watch?v=bKZiXAFeBeY):(15min)
+FB provides tools that let users map out the stories of their lives. The social graph is the digital representation of this map. It is fundamental to how products are thought about at FB. Adam Mosseri talked about it in this [video in 2010](https://youtu.be/bKZiXAFeBeY?t=15m):
 <br>
 > We talk a lot about the social graph internally and externally. The social graph is the digital representation on Facebook of real world entities – your relationship with a friend we call a friendship, you going to a party we call you rsvp-ing to an event, your football team is a group. we talk about the social graph as just objects and connections between objects within the system that represent real life entities… Writes are creations of objects or connections between objects, and reads are reads of that information…
 
@@ -85,11 +85,10 @@ This poses several challenges. There is the technical challenge of computing thi
 - Context - what else is happening at the moment?
 
 
-
-<br/><a name="problem/solution space"></a>
+<br/>
 ### **3. Use Cases**
 
-We know from their 10k that FB sees **these** as among their major use cases. For comparison, I surveyed 100 people on [mturk](https://www.mturk.com/mturk/welcome) (yes, it’s small and not representative). The results were surprisingly consistent with what FB state in their 10k, with a few nuances. Namely:
+We know from their 10k that FB sees [these](#usecase) as among their major use cases. For comparison, I surveyed 100 people on [mturk](https://www.mturk.com/mturk/welcome) (yes, it’s small and not representative). The results were surprisingly consistent with what FB state in their 10k, with a few nuances. Namely:
 - connecting with friends & family is by far the most common use of FB
 - discovering news is the top use of FB after connecting and communicating with people
 - connecting != directly communicating. Though most people use FB to stay connected with friends & family, they are likely using other platforms to directly communicate with them. My guess is that people see messenger or whatsapp as distinct from FB here
@@ -110,14 +109,13 @@ In each of these cases a person chooses FB over other products and experiences t
 There are more levels below this, but for the purpose of this post, this gives a sense of what user considerations influence product decisions.
 
 
-
-<br/><a name="stakeholders"></a>
+<br/>
 ### **4. Stakeholders**
 
-FB is a multi-billion dollar company, which means it has lots of different stakeholders. It follows that the needs of those stakeholders will sometimes be important factors when product decisions are made. A good outline of that is made by [Adam Mosseri in 2010](https://www.youtube.com/watch?v=bKZiXAFeBeY) [12m53]:
+FB is a multi-billion dollar company, which means it has lots of different stakeholders. It follows that the needs of those stakeholders will sometimes be important factors when product decisions are made. A good outline of that is made by [Adam Mosseri in 2010](https://youtu.be/bKZiXAFeBeY?t=12m53s):
 > At Facebook, in product, there is a healthy skepticism of being overly data driven. It is very difficult for a set of metrics to fully represent what you value. There are a lot of factors that go into making any sort of product decision. Quantitative data is one [], qualitative data is another, **strategic interests** are another, **user interests** are another (what people complain about, what people ask for), **network interests** (which are significantly different), **competition** clearly factors into our decision making, **regulatory bodies** at this point (at our scale we have to deal with privacy advocacy groups, the EU...), and **business interests** (explicitly we value revenue generation right now less than growth and engagement. Growth being defined by how many users come onto the site, engagement being defined by how often users use the site). So, these are all important factors that we use in making our decisions
 
-<br/><a name="engagement"></a>
+<br/>
 ### **5. Engagement**
 
 ![](https://i.imgur.com/wU9atQP.png){:height="50%" width="50%"}
@@ -128,8 +126,8 @@ It is my understanding that engagement is a core focus of product teams at FB. I
 - **Content** – time and attention spent on the platform attracts content
 - **Revenue** – time and attention spent on the platform drives ad revenue
 
-<br/><a name="abuse/misuse"></a>
-### **7. Perverse outcomes**
+<br/>
+### **6. Perverse outcomes**
 
 A challenge that FB faces is the abuse of their products. I suspect FB products are built with both the most optimistic use cases in mind, and with the dangers of their misuse in mind. Some examples of where product thinking addresses these issues in public:
 - **Offensive content** - “The idea is to give everyone in the community options for how they would like to set the content policy for themselves. Where is your line on nudity? On violence? On graphic content? On profanity? What you decide will be your personal settings. We will periodically ask you these questions to increase participation and so you don’t need to dig around to find them. For those who don’t make a decision, the default will be whatever the majority of people in your region selected, like a referendum. Of course you will always be free to update your personal settings anytime.”
@@ -138,8 +136,7 @@ A challenge that FB faces is the abuse of their products. I suspect FB products 
 
 
 <br/>
-<a name="summary"></a>
-### **6. Summary**
+### **7. Summary**
 - FB is a service for connecting
 - Social is core to the product experience (FB is a network)
 - Engagement is key
