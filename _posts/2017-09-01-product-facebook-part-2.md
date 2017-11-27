@@ -91,7 +91,7 @@ FB consolidates the predictions made into a relevancy score, and orders all post
 
 Recall that the mission of newsfeed is to connect people with the content that matters most to them across their social graph. To evaluate how well they are doing with newsfeed, here is a breakdown of what measures FB might look at:
 
-- <span style="background-color: #70f5c7">**1st ORDER** (what people do)</span>
+- <span style="background-color: #70f5c7">**1st order** (what people do)</span>
   - **Engagement** — how much a user engages with the content in their newsfeed is correlated with how much they value it. FB can measure:
     - *Clicks*
     - *Likes/Reactions*
@@ -105,10 +105,10 @@ Recall that the mission of newsfeed is to connect people with the content that m
 
 ![](https://i.imgur.com/EuStobW.png)<br>
 
-- <span style="background-color: #70f5c7">**2nd ORDER** (what people say)</span>
+- <span style="background-color: #70f5c7">**2nd order** (what people say)</span>
   - **User preference** — FB does have a representative panel of users that they regularly poll (feed quality panel). They ask them to score how much they would like to see pieces of content in their newsfeed, and compare that with the score FB gives that content. This is an direct way to evaluate the algorithm with human input.
   - **Quality of time spent** — FB conducts an ongoing user survey (eg. NPS, or feedback survey) to establish how meaningful the time spent on newsfeed was for their users
-- <span style="background-color: #70f5c7">**3rd ORDER** (wider impact)</span>
+- <span style="background-color: #70f5c7">**3rd order** (wider impact)</span>
   - **Network impact** — what types of reads and writes are users creating? Has this mix shifted due to changes? How have those changes impacted their networks in terms of engagement, usage, and quality of time spent? This is more nebulous than a single metric.
 
 Again… just watching the above metrics is not sufficient to determine the causal impact of the newsfeed product. To do this, FB could do several things such as run an AB test. That is beyond the scope of this post, but I do cover causality & product testing in another post.
@@ -131,7 +131,7 @@ FB places a prompt for the user to write at the top of the newsfeed screen on iO
 
 There are a few things FB can alter dynamically (other than redesigning the tool): (1) **the text** in the box (“what’s on your mind?”), (2) **the order** of the format type buttons. <span style="background-color: #70f5c7">The goal is to make it as easy as possible for a user to post, and to help make those posts as meaningful as possible to the user</span>. The tool is mainly seen when a user first enters the FB app. At the time a user opens the app, FB may evaluate the following to determine how to show the prompt — with the aim of **predicting** the following questions: (a) **what are you most likely to want to post about?** (b) **who is most the meaningful audience (ie. likely to engage with) for that post?** (c) **what format is most likely to drive engagement?**:
 
-- **AUTHOR**
+- **Author**
   - Context
     - What device are you using?
     - What is your connectivity like?
@@ -152,7 +152,7 @@ There are a few things FB can alter dynamically (other than redesigning the tool
       - When do they engage your the posts?
       - How often do they engage with your posts?
       - What engagement is most meaningful to you?
-- **AUDIENCE**
+- **Audience**
   - Context
     - What device are they using?
     - What is their connectivity like?
@@ -166,7 +166,7 @@ If a user does not post frequently, FB can match the user with a very similar us
 ### **C. How does FB evaluate how they are doing?**
 
 The goal is to make it as easy as possible for a user to post, and to help make those posts as meaningful as possible to the user. To evaluate how well they are doing with the prompt, here is a breakdown of what measures FB might look at:
-- <span style="background-color: #70f5c7">**1st ORDER** (what people do)</span>
+- <span style="background-color: #70f5c7">**1st order** (what people do)</span>
   - **Usage** - how much someone posts correlates with how much value they get from the feature. FB can measure:
     - *Posts per user* - how often does each user post /day, /week, /month
     - *Time to post* - how long does it take a user to post? Split by type
@@ -177,10 +177,10 @@ The goal is to make it as easy as possible for a user to post, and to help make 
     - *Likes/Reactions*
     - *Comments*
     - *Shares*
-- <span style="background-color: #70f5c7">**2nd ORDER** (what people say)</span>
+- <span style="background-color: #70f5c7">**2nd order** (what people say)</span>
   - **User preferences** — ask a set of users to create their own preferred post-prompt layout and compare their choice with FBs ranking (mirror newsfeed approach).
   - **Quality of time spent** — FB uses an ongoing user survey (eg. NPS, or feedback survey) to establish how meaningful time spent on FB was for their users. The goal of the post prompt is to enable users to share and connect — a core need. This metric is relevant to that.
-- <span style="background-color: #70f5c7">**3rd ORDER** (wider impact)</span>
+- <span style="background-color: #70f5c7">**3rd order** (wider impact)</span>
   - **Network impact** — what types of reads and writes are users creating? Has this mix shifted due to changes in the feature? How have those changes impacted their networks in terms of engagement, usage, and quality of time spent? This is more nebulous than a single metric.
 
 Just watching the above metrics is not sufficient to determine the causal impact of the post prompt product. To do this, FB could do several things such as run an AB test. That is beyond the scope of this post, but I do cover causality & product testing in another post.
