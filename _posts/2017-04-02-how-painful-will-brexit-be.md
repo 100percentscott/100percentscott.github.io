@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  brexit
+title:  how painful will brexit be?
 date:   2017-04-02 10:30:00
 ---
 
@@ -10,11 +10,9 @@ date:   2017-04-02 10:30:00
 <br/>
 In short, the UK will be poorer in the long-run from leaving because we will trade less with our closest neighbours, losing full access to the largest Single Market on the planet. We will have less foreign investment because of these weaker ties. And there will be an enormous increase in uncertainty as we spend many, many painful years renegotiating the relationship with Europe and the rest of the world.”
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<br>
+![](https://i.imgur.com/SFte1cv.png)
+
 <br/>
 <br/>
 <br/>

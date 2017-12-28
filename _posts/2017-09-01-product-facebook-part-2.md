@@ -1,27 +1,29 @@
 ---
 layout: post
-title:  product @facebook - part 2
+title:  product — facebook (part 2)
 date:   2017-09-01 10:30:00
 ---
 <br/>
-
-The objective is to understand how FB thinks about and ultimately builds its products. <br>
-Part 1 covers the company and the nature of their product. <br>
-Part 2 runs through their iOS app. <br>
+The purpose of this post is to understand how products are built at FB <br>
+Part 1 covers the company and the nature of their products <br>
+Part 2 is a breakdown of the FB iOS app <br>
+<br>
 This is part 2.
+<br>
+<br>
 
 -----------------------
 # **News Feed**
 
-### **A. What is the goal?**
+Let us start with the start screen, newsfeed.
 
+### **A. What is the goal?**
+Recall Mark Zuckerberg described newsfeed as the answer to the question ‘what is going on with the world around you?’. The goal of newsfeed is to connect people with the content that matters most to them across their social graph. As Chris Cox [puts it](https://youtu.be/8-Yhpz_SKiQ?t=3m19s) “What we are really trying to get to is a world where — if you were to stack rank the thousands of events that were going on in the world around you, and say these were the 20 that really mattered to me, that i want to talk about with my friends and family over dinner or drinks at the end of the day — were able to deliver those things to you every single day reliably. For 2 billion people”
+<br>
+<br>
 ![](https://i.imgur.com/B8mS4Hk.png){:height="50%" width="50%"}
-<br>
-Recall Mark Zuckerberg described newsfeed as the answer to the question ‘what is going on with the world around you?’. The mission of newsfeed is to connect people with the content that matters most to them across their social graph. As Chris Cox [puts it](https://youtu.be/8-Yhpz_SKiQ?t=3m19s) “What we are really trying to get to is a world where, if you were to stack rank the thousands of events that were going on in the world around you, and say these were the 20 that really mattered to me that i want to talk about with my friends and family over dinner or drinks at the end of the day — were able to deliver those things to you every single day reliably. For 2 billion people”
-<br>
-<br>
 ### **B. How does it work?**
-Each time a user opens FB, newsfeed runs through the following algorithm in order to decide what to show you, and in what order.
+Each time you open FB, newsfeed runs through the following algorithm in order to decide what to show you, and in what order
 <br>
 <br>
 **Step 1 — Inventory**<br>
@@ -29,19 +31,18 @@ Each time a user opens FB, newsfeed runs through the following algorithm in orde
 The first step is to determine what stories and content have been published across your social graph. When you first sign up for FB, newsfeed is completely empty. The most significant input that determines what  appears in your newsfeed is the social graph that you map out on FB (ie.
 the people you decide to friend, and the publishers, businesses, and pages that you decide to follow). As a result everybody’s newsfeed is unique.
 <br><br>
-
-![](https://i.imgur.com/5cVrklT.png)
-<br>
 **Step 2 — Signals**<br>
 <br>
-FB evaluates all of this content using a wide range of different signals. These are low-level predictions of how meaningful the content might be to a user. <span style="background-color: #70f5c7">First-order user needs</span> (<span style="background-color: #70f5c7">connect</span>, <span style="background-color: #70f5c7">communicate</span>, <span style="background-color: #70f5c7">discover</span>, <span style="background-color: #70f5c7">share</span>, and <span style="background-color: #70f5c7">entertain</span>) and <span style="background-color: #70f5c7">second-order user needs</span> (<span style="background-color: #70f5c7">convenient</span>, <span style="background-color: #70f5c7">fast</span>, <span style="background-color: #70f5c7">reliable</span>, <span style="background-color: #70f5c7">simple</span>) clearly inform what signals FB look for here.
+![](https://i.imgur.com/5cVrklT.png){:height="75%" width="75%"}
+<br><br>
+The second step is to extract signals from the inventory. FB evaluates all of this content using a wide range of different signals. These are low-level indicators of how meaningful the content might be to a user. First-order user needs (connect, communicate, discover, share, and entertain) and second-order user needs (convenient, fast, reliable, simple) clearly inform what signals FB look for here.
 
-- **AUTHOR**
-  - Who posted the story? (eg. close friend > friend-of-friend)
+- **Author**
+  - Who posted the story?
   - How often do they post?
   - What feedback does the author get?
   - How complete is their profile page?
-- **POST**
+- **Post**
   - Content
     - What type of content is it (format - photo, video, notification, etc)
     - What is the content quality? (eg. sensational vs informative)
@@ -51,7 +52,7 @@ FB evaluates all of this content using a wide range of different signals. These 
     - Does the post already have engagement?
     - Who engaged with the content? (social proof)
     - Average time spent on content
-- **READER**
+- **Reader**
   - Context
     - What device are you using?
     - What is your connectivity like?
@@ -64,25 +65,27 @@ FB evaluates all of this content using a wide range of different signals. These 
     - How much do you value discovery?
 <br><br>
 
-![](https://i.imgur.com/Z8ksH6s.png)<br>
 **Step 3 — Predictions**
 <br><br>
-At this point FB predicts a user’s reaction toward each piece of content across several dimensions:
+![](https://i.imgur.com/Z8ksH6s.png){:height="75%" width="75%"}
+<br><br>
+FB now uses the signals to predict your reaction toward each piece of content in your available inventory. The specific reactions predicted fall across several dimensions:
 
-- **Engagement** — FB predicts your engagement with each piece of content. They do this because (1) engagement is correlated with user-value, and (2) engagement delivers network-value.
+- **Engagement** — FB predicts your engagement with each piece of content. They do this because engagement is critical (it is correlated with user-value, and delivers network-value)
   - How likely are you to click the content?
   - How likely are you to spend time with the story?
   - How likely are you to like, comment, and share?
-- **Value** - FB predicts how valuable you’ll find each piece of content. They do this in addition to predicting engagement because it is a direct measure of what matters most.
+- **Value** — FB predicts how valuable you’ll find each piece of content. They do this in addition to predicting engagement because it is a direct measure of what matters most to you
   - How likely are you to find the content informative?
   - How likely are you to find the content entertaining?
   - How likely are you to find the content new? (ie. discovery)
-  - Other -
-  - How likely is it that the content is clickbait? (eg. content where p(sharing) is lower after reading it)
+- **Other** — FB also predicts other systemically important factors
+  - How likely is it that the content is clickbait? (for example, content where the probability of sharing it is lower after reading it)
   - How likely is it that the content contains nudity?
 
-
+<br>
 **Step 4 — Relevancy score**
+<br><br>
 FB consolidates the predictions made into a relevancy score, and orders all posts in newsfeed according to the score. Ads fit into the newsfeed product as sponsored content in addition to this organic content.
 <br>
 <br>
@@ -97,21 +100,23 @@ Recall that the mission of newsfeed is to connect people with the content that m
     - *Likes/Reactions*
     - *Comments*
     - *Shares*
-  - **Usage** — how much a someone uses newsfeed is likely correlated with how much value they get from using it. FB can measure:
-    - *Time spent* - how long do users spend on a content (/session, /week, /month)
-    - *DAU/MAU* - how often does the user engage with the news feed
-    - *Growth accounting* - what state are the users in (active/inactive user of newsfeed), and how were the flows between them affected (new/churn/return)
-  - **Content flags** — FB allows users to flag content of a certain type (eg. false news story, overly promotional content, etc), and flagging rates are tracked.
+  - **Usage** — how much someone simply uses newsfeed is likely correlated with how much value they get from it. FB can measure:
+    - *Time spent* — how long do users spend on a content (/session, /week, /month)
+    - *DAU/MAU* — how often does the user engage with the news feed
+    - *Growth accounting* — what state are the users in (active/inactive user of newsfeed), and how were the flows between them affected (new/churn/return)
+  - **Content flags** — FB allows users to flag content of a certain type (eg. false news story, overly promotional content, etc), and flagging rates are tracked. Flagging is value destroying and not value generating. That is, high flagging rates will decrease the value a user gets from the product.
 
-![](https://i.imgur.com/EuStobW.png)<br>
-
+<br>
 - <span style="background-color: #70f5c7">**2nd order** (what people say)</span>
-  - **User preference** — FB does have a representative panel of users that they regularly poll (feed quality panel). They ask them to score how much they would like to see pieces of content in their newsfeed, and compare that with the score FB gives that content. This is an direct way to evaluate the algorithm with human input.
+  - **User preference** — FB does have a representative panel of users that they regularly poll (feed quality panel). They ask them to score how much they would like to see pieces of content in their newsfeed, and compare that with the score FB gives that content using the newsfeed algorithm. This is an direct way to evaluate the algorithm with human input.
   - **Quality of time spent** — FB conducts an ongoing user survey (eg. NPS, or feedback survey) to establish how meaningful the time spent on newsfeed was for their users
+
+![](https://i.imgur.com/EuStobW.png){:height="75%" width="75%"}<br>
+
 - <span style="background-color: #70f5c7">**3rd order** (wider impact)</span>
   - **Network impact** — what types of reads and writes are users creating? Has this mix shifted due to changes? How have those changes impacted their networks in terms of engagement, usage, and quality of time spent? This is more nebulous than a single metric.
 
-Again… just watching the above metrics is not sufficient to determine the causal impact of the newsfeed product. To do this, FB could do several things such as run an AB test. That is beyond the scope of this post, but I do cover causality & product testing in another post.
+Observing the above metrics is not sufficient to determine the causal impact of the newsfeed product. To do this, FB could do several things such as run an AB test. That is beyond the scope of this post, but I do cover causality & product testing in another post.
 
 -----------------------
 ## **Write Prompt**
@@ -186,15 +191,5 @@ The goal is to make it as easy as possible for a user to post, and to help make 
 Just watching the above metrics is not sufficient to determine the causal impact of the post prompt product. To do this, FB could do several things such as run an AB test. That is beyond the scope of this post, but I do cover causality & product testing in another post.
 <br>
 <br>
-
------------------------
-## **Navigation**
-
------------------------
-## **Notifications**
-
------------------------
-## **Friends**
-
------------------------
-## **Groups**
+<br>
+<br>

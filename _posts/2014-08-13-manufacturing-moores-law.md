@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  moore's law
+title:  manufacturing moore's law
 date:   2014-08-11 10:30:00
 ---
 Who Owns the Future, by Jaron Lanier

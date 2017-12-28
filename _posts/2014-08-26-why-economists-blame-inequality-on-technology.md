@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  inequality
+title:  why economists blame inequality on technology
 date:   2014-08-26 10:30:00
 ---
 
@@ -28,6 +28,9 @@ Differences in education (and the interaction with technology) do not account fo
 <br/>
 <br/>
 Briefly, tax policy changes have disproportionately benefited top earners since the 1970s, particularly in the US, which has reduced taxes on top incomes to historically low rates. New technologies have allowed CEO’s and entertainers, for example, to connect with larger audiences, and the size of their pay packets have grown to reflect this. New technologies have also allowed companies to operate with significantly fewer workers, just look at Apple, Google or Facebook. There has also been a surge in high salaries earned in the financial sector, where regulations have been gradually weakened. Lastly, social norms regarding pay, which have been shown to be a restraint on CEO pay, have changed over time, becoming more sympathetic to high salaries (though perhaps this has now changed).
+<br/>
+<br/>
+[Note: there is an interesting discussion on capital vs labour's share of income and the impact on inequality that should go here]
 <br/>
 <br/>
 ### **family**
