@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  the middlemen of trust
-date:   2015-04-04 10:30:00
+date:   2015-02-22 10:30:00
 ---
 
 [Dark Leviathan](https://aeon.co/essays/why-the-hidden-internet-can-t-be-a-libertarian-paradise) — the Silk Road might have started as a libertarian experiment, but it was doomed to end as a fiefdom run by pirate kings. An interesting read on the role of trust in the marketplace.

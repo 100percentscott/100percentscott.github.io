@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  china's money exodus
-date:   2015-04-08 10:30:00
+date:   2015-11-03 10:30:00
 ---
 
 [China’s Money Exodus](http://www.bloomberg.com/news/features/2015-11-02/china-s-money-exodus)
