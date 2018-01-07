@@ -8,8 +8,8 @@ date:   2017-12-11 10:30:00
 ## **Question**
 We often want to know the effect of X on Y.  This is called causal inference.  It’s a problem that can come up in lots situations.  Most commonly when we plan to make a change to a product, and we want to know how it will effect a set of outcomes we care about. For example:
 - How does a new form affect contact rates?
-- How does a new incentive system affect user behaviour?
-- How does a new screen affect
+- How does a new app screen affect driver positioning?
+- How does a cancellation fee affect user retention?
 
 This post outlines some thinking to help approach these problems.
 <br><br>
