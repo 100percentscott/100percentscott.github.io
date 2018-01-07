@@ -104,7 +104,7 @@ Recall that the mission of newsfeed is to connect people with the content that m
     - *Time spent* — how long do users spend on a content (/session, /week, /month)
     - *DAU/MAU* — how often does the user engage with the news feed
     - *Growth accounting* — what state are the users in (active/inactive user of newsfeed), and how were the flows between them affected (new/churn/return)
-  - **Content flags** — FB allows users to flag content of a certain type (eg. false news story, overly promotional content, etc), and flagging rates are tracked. Flagging is value destroying and not value generating. That is, high flagging rates will decrease the value a user gets from the product.
+  - **Content flags** — FB allows users to flag content of a certain type (eg. false news story, overly promotional content, etc), and flagging rates are tracked. Increases in flagging rates likely signal a worsening user experience.
 
 <br>
 - <span style="background-color: #70f5c7">**2nd order** (what people say)</span>
@@ -113,10 +113,11 @@ Recall that the mission of newsfeed is to connect people with the content that m
 
 ![](https://i.imgur.com/EuStobW.png){:height="75%" width="75%"}<br>
 
-- <span style="background-color: #70f5c7">**3rd order** (wider impact)</span>
-  - **Network impact** — what types of reads and writes are users creating? Has this mix shifted due to changes? How have those changes impacted their networks in terms of engagement, usage, and quality of time spent? This is more nebulous than a single metric.
+- <span style="background-color: #70f5c7">**Higher order measures** (network effects)</span>
+  - **Network impact** — because users interact with each other, changes to newsfeed not only impact users who use newsfeed. For instance, what types of reads and writes do newsfeed users create? Has this mix shifted due to changes? How have those changes impacted their networks in terms of engagement, usage, and quality of time spent? Measuring this is more challenging.
 
-Observing the above metrics is not sufficient to determine the causal impact of the newsfeed product. To do this, FB could do several things such as run an AB test. That is beyond the scope of this post, but I do cover causality & product testing in another post.
+Above I listed out a set of metrics. To determine the causal impact of changes in the newsfeed product requires a careful experimental setup. Product testing in social networks is a really interesting challenge and I’ll civer that in another post.
+
 
 -----------------------
 ## **Write Prompt**
@@ -185,10 +186,11 @@ The goal is to make it as easy as possible for a user to post, and to help make 
 - <span style="background-color: #70f5c7">**2nd order** (what people say)</span>
   - **User preferences** — ask a set of users to create their own preferred post-prompt layout and compare their choice with FBs ranking (mirror newsfeed approach).
   - **Quality of time spent** — FB uses an ongoing user survey (eg. NPS, or feedback survey) to establish how meaningful time spent on FB was for their users. The goal of the post prompt is to enable users to share and connect — a core need. This metric is relevant to that.
-- <span style="background-color: #70f5c7">**3rd order** (wider impact)</span>
-  - **Network impact** — what types of reads and writes are users creating? Has this mix shifted due to changes in the feature? How have those changes impacted their networks in terms of engagement, usage, and quality of time spent? This is more nebulous than a single metric.
+- <span style="background-color: #70f5c7">**Higher order measures** (network effects)</span>
+  - **Network impact** — because users interact with each other, changes to prompt not only impact users who use the prompt. For instance, what types of reads and writes do prompt users create? Has this mix shifted due to changes? How have those changes impacted their networks in terms of engagement, usage, and quality of time spent? Measuring this is more challenging.
 
-Just watching the above metrics is not sufficient to determine the causal impact of the post prompt product. To do this, FB could do several things such as run an AB test. That is beyond the scope of this post, but I do cover causality & product testing in another post.
+Above I listed out a set of metrics. To determine the causal impact of changes in the newsfeed product requires a careful experimental setup. Product testing in social networks is a really interesting challenge and I’ll civer that in another post.
+
 <br>
 <br>
 <br>
