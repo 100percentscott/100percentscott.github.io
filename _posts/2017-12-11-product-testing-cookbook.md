@@ -4,7 +4,8 @@ title:  causality cookbook
 date:   2017-12-11 10:30:00
 ---
 <br/>
-![](http://johnblakey.co.uk/wp-new/wp-content/uploads/2016/06/morpheus-red-pill-blue-pill.jpg)
+![](https://i.imgur.com/WiwWoSn.png?1){:height="50%" width="50%"}
+
 ## **Question**
 We often want to know the effect of X on Y.  This is called causal inference.  It’s a problem that can come up in lots situations.  Most commonly when we plan to make a change to a product, and we want to know how it will effect a set of outcomes we care about. For example:
 - How does a new form affect contact rates?
