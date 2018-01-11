@@ -4,7 +4,11 @@ title:  predicting brexit negotiations
 date:   2016-10-05 10:30:00
 ---
 
-<br/>
+<br>
+**Update** [ Jan-2018 ]: Does Brexit end not with a bang but a whimper? [Simon Wren-Lewis](https://mainlymacro.blogspot.co.uk/2018/01/does-brexit-end-not-with-bang-but.html)
+<br><br>
+
+-----------------------
 Thinking through the possible outcomes of the Brexit negotiations, and inspired by [this spatial model](https://medium.com/@chrishanretty/spatial-politics-and-brexit-negotiations-fc078bb709e7#.bz6e3hmb3), here’s my take:
 The setup follows the article linked above:
 >“I’m going to posit two dimensions to the negotiations: a freedom of movement dimension, and a single market access dimension.
