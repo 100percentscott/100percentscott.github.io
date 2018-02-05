@@ -4,7 +4,7 @@ title:  losing roulette
 date:   2018-02-05 10:30:00
 ---
 
-*Code for simulations can be found [here]()*
+*Code for simulations can be found [here](https://github.com/100ps/rndm1/blob/master/04-roulette.ipynb)*
 
 I have been intrigued by the idea of running a [martingale](https://en.wikipedia.org/wiki/Martingale_(probability_theory)) strategy in roulette.  The strategy is a guaranteed win in a game without a bet size limit.  But most games have a bet size limit (at least in roulette).  Despite knowing that the strategy is loser in practice, I have tried it at least twice.  On each occasion I found myself at some point happier to take the loss than stake a further bet.  So I though I would run a little simulation of the strategy to demonstrate why it is a loser.
 
