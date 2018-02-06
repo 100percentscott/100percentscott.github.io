@@ -51,3 +51,6 @@ The chart above is just one simlulation. We can run several of these simulations
 
 If you are more risk averse, and set a lower bet size limit, the strategy is even worse. Below is the same simulation with a £100 bet size limit.<br>
 ![png](https://i.imgur.com/rhatdh1.png)
+
+<br>
+<br>

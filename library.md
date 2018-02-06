@@ -14,6 +14,10 @@ permalink: /library/
 - [Research]((https://docs.google.com/document/d/1PUGp5VrFfRl0f3PUuHxyNSkPbhGcVLnDyj_ybQtEsR8/edit?authkey=CKn65S8))
 - [Intercom on Product Management](https://www.intercom.com/books/product-management) ([pdf](https://drive.google.com/file/d/1SVZxr6SWMTe_eZwXbiRHZ-k7qLVbwFHJ/view?usp=sharing))
 - [Good Product Manager, Bad Product Manager](https://www.khoslaventures.com/wp-content/uploads/Good_Product_Manager_Bad_Product_Manager_KV.pdf)
+- [Behind every great product](https://svpg.com/assets/Files/productmanager.pdf)
+- Interviewing: [How does the internet work](http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
+- Interviewing: [Big O in plain english](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)
+
 
 
 
