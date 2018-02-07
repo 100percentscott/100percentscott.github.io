@@ -3,7 +3,11 @@ layout: post
 title:  why productivity matters
 date:   2014-08-26 10:31:00
 ---
+<br>
+**Relevant** [ Feb-2018 ]: Like great coffee, good ideas take time to percolate [here](https://www.ft.com/content/46e03c08-0749-11e8-9650-9c0ad2d7c5b5)
+<br><br>
 
+-----------------------
 Productivity growth  ——  the rise in the amount we produce from each unit of input  ——  is important. As we get better at producing the goods we consume, we waste less and free up resources. All else equal, goods get cheaper and we employ fewer workers to produce them. These changes have important consequences for consumers, workers and the environment.
 <br/>
 <br/>
